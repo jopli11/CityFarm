@@ -302,3 +302,16 @@ input[type="submit"]:hover {
     font-weight: bold;
     margin-top: 15px;
 }
+
+.contact-info .contact-item .icon img {
+    width: 32px; /* Adjust the width to your desired size */
+    height: 32px; /* Adjust the height to your desired size */
+    object-fit: contain; /* Makes sure the image maintains its aspect ratio */
+}
+
+.contact-info .contact-item {
+    display: flex; /* Aligns the icon and info horizontally */
+    align-items: center; /* Vertically aligns the icon and info */
+    gap: 10px; /* Adds space between the icon and info */
+    margin-bottom: 10px; /* Adds space between contact items */
+}
