@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The City Farm - Donate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="visit.html">Visit Us</a></li>
+                <li><a href="involved.html">Get Involved</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>The City Farm</h1>
+                <p>A local charity providing training opportunities for vulnerable adults.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="form-container">
+            <h2>Donation Set-Up Form / Pledge Donation</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="amount">Amount:</label>
+                <input type="number" id=amount name="amount" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <input type="submit" value="Donate Now">
+            </form>
+        </section>
+
+        <section id="visit-us">
+            <div class="container">
+                <h2>Why Donate?</h2>
+                <p>Our community and its animals rely on the support of people like you. Your donation can help us to:</p>
+                <ul>
+                    <li>Provide shelter for homeless animals</li>
+                    <li>Provide food and medical care for sick and injured animals</li>
+                    <li>Run educational programs for the community</li>
+                    <li>Offer volunteer opportunities to help those in need</li>
+                </ul>
+                <p>By donating to City Farm, you can make a difference in the lives of animals and people in need.</p>
+            </div>
+        </section>
+
+        <section id="testimonial">
+            <div class="container">
+                <h2>Testimonials</h2>
+                <div class="testimonial-item">
+                    <p>"I have been volunteering at City Farm for over a year now and I have seen firsthand the impact that this organization has on the community. I am proud to support such an important cause."</p>
+                    <p class="testimonial-author">- Jane Doe, Volunteer</p>
+                </div>
+
+                <div id="countdown">
+                    Time Left to Donate: <span id="timer"></span>
+                </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; The City Farm</p>
+        </div>
+    </footer>
+</body>
+
+<script src="countdown.js"></script>
+
+</html>

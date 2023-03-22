@@ -1,0 +1,304 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Color Pallete */
+
+:root {
+    --westar: #e0dfdb;
+    --toast: #996d5d;
+    --tan: #d4a585;
+    --abbey: #484751;
+    --thatch: #b3a195;
+    --malta: #bfb5a6;
+    --zambezi: #635154;
+    --mongoose: #b9977c;
+    --bali-hai: #84a4b4;
+}
+
+
+/* General styles */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--westar);
+}
+
+a {
+    color: var(--bali-hai);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Header */
+
+header {
+    background-color: var(--toast);
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    padding: 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 1.5rem;
+}
+
+
+/* Main content */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+main article {
+    flex: 1 1 300px;
+    border: 1px solid var(--westar);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+main article h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1rem;
+    background-color: var(--toast);
+    color: #fff;
+}
+
+main article p {
+    padding: 1rem;
+    margin: 0;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--toast);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+/* Nav Bar */
+
+nav {
+    background-color: var(--malta);
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 10px;
+    align-items: center;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--abbey);
+}
+
+
+/* Video */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Donate Button */
+
+.donate-button {
+    background-color: var(--zambezi);
+    color: var(--westar);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donate-button:hover {
+    background-color: var(--bali-hai);
+    color: var(--westar);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Form */
+
+form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+textarea {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--thatch);
+    margin-bottom: 1rem;
+}
+
+input[type="email"],
+textarea {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--thatch);
+    margin-bottom: 1rem;
+}
+
+input[type="tel"],
+textarea {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--thatch);
+    margin-bottom: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+input[type="submit"] {
+    background-color: var(--tan);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--thatch);
+}
+
+
+/* Testimonials */
+
+.testimonials {
+    background-color: var(--thatch);
+    padding: 50px 0;
+}
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.testimonial h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.testimonial span {
+    font-size: 14px;
+    color: var(--toast);
+    margin-top: 10px;
+}
+
+
+/* Countdown */
+
+#countdown {
+    color: var(--bali-hai);
+    font-size: 20;
+    font-weight: bold;
+    margin-top: 15px;
+}
