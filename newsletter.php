@@ -11,13 +11,15 @@
 <body>
     <header>
         <nav>
-            <ul>
+        <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="visit.html">Visit Us</a></li>
                 <li><a href="involved.html">Get Involved</a></li>
                 <li><a href="donate.html">Donate</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="newsletter.php">Newsletter</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <div class="hero-image">
